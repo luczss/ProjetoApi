@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Api</title>
     <!--CSS EXTERNO-->
     <Link rel="stylesheet" href="./src/css/estilo.css">
     <!--API EXTERNA -->
     <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+    <title>Projeto Api</title>
 </head>
 <body>
+    <header>
+        <h1>SCANNER DE TEXTO</h1>
+    </header>
+    <main>
+        <div class="container">
+            <video id="video"autoplay playinslini></video>
+            <canvas id="canvas"></canvas>
+            <button id="btn-texto">capturar texto</button>
+            <div id="saida">lendo texto...</div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2026-Todos os direitos Reservados</p>
+    </footer>
     
 
     <!-- JS EXTERNO -->
